@@ -1,0 +1,71 @@
+body{
+  background-image: url('Bnewyear.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  color: white; 
+}
+header{
+    background-color: ;
+    background-position: ;
+    color: ;
+    font-family: ;
+    padding: 1em;
+    text-align: center;
+}
+h1{
+  color: ;
+  font-family: ;
+  font-size: ;
+}
+h2{
+  font-family: ;
+  font-size: ;
+  color: ; 
+}
+h3{
+  font-family: ;
+  font-size: ;
+  color: ; 
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 150%;
+  opacity: 0;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+footer{
+    font-size: .70em;
+    font-style:italic;
+    text-align: center;
+    padding-bottom: .5em;
+}
+.column{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
